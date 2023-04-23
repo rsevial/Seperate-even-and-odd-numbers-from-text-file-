@@ -14,7 +14,9 @@ def seperated_number():
     # If-else statement that determines if the number in the text file is even or odd number
                 # If the number is even
                 if input_numbers % 2 == 0:
-                    # Create new text file for even numbers as even.txt      
+                    # Create new text file for even numbers as even.txt
+                    even = open("even.txt", "a")
+                    even.write(str(input_numbers) + "\n")     
                 # Else
                 # Create new text file for odd numbers as odd.txt
 # Process that will end the program
