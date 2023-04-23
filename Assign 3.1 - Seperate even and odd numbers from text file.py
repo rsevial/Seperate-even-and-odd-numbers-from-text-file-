@@ -18,5 +18,8 @@ def seperated_number():
                     even = open("even.txt", "a")
                     even.write(str(input_numbers) + "\n")     
                 # Else
-                # Create new text file for odd numbers as odd.txt
+                else:
+                    # Create new text file for odd numbers as odd.txt
+                    odd = open("odd.txt", "a")
+                    odd.write(str(input_numbers) + "\n")
 # Process that will end the program
