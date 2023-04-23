@@ -4,7 +4,8 @@
 
 # Open text file
 with open("numbers.txt") as file_numbers:
-# For loop to read each line of the text file
+    # For loop to read each line of the text file
+    for line in file_numbers:
 # If-else statement that determines if the number in the text file is even or odd number
 # Compute for the squared
 # Create new text file for even numbers as even.txt
