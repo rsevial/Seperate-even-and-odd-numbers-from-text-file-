@@ -23,3 +23,4 @@ def seperated_number():
                     odd = open("odd.txt", "a")
                     odd.write(str(input_numbers) + "\n")
 # Process that will end the program
+seperated_number()
