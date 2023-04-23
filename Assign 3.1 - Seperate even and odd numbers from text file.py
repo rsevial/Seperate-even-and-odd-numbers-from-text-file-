@@ -13,6 +13,7 @@ def seperated_number():
                 input_numbers = int(line)
     # If-else statement that determines if the number in the text file is even or odd number
                 # If the number is even
+                if input_numbers % 2 == 0:
                     # Create new text file for even numbers as even.txt      
                 # Else
                 # Create new text file for odd numbers as odd.txt
