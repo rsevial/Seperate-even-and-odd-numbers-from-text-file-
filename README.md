@@ -6,7 +6,7 @@
   
 ### About the Program
 
-The program will read a binary file containing the name of 20 students together with their GWA then outputs the name of the student who got the highest GWA (including the GWA).
+The Progam will read a text file named numbers.txt then will create two other file; The first text file will contains all even numbers from the number.txt. The second text file will contain all odd numbers from the numbers.txt. 
 
 ### Submmitted by:
 
